@@ -1,0 +1,138 @@
+body {
+  background-color:rgba(216, 247, 165, 0.672);
+  margin: 0px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 9vh;
+  width: 100%;
+  background-color:rgb(13, 196, 0);
+  opacity: 0.9;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav-heading {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-links{
+  list-style: none;
+  justify-content: space-between;
+  padding: 5px;
+}
+.nav-links li{
+  height: 100%;
+  display: inline;
+  padding: 30px;
+  transition: 0.2s ease;
+}
+
+.nav-links li:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mid-banner {
+  background-color: beige;
+  margin-top: 9vh;
+  width: 100%;
+  height: 40vh;;
+  display: flex;
+}
+
+.mid-text{
+  margin: 5vh 5vw;
+}
+
+.mid-text button {
+  background-color: rgb(13, 196, 0);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 125px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.mid-banner img{
+  height: 40vh;
+}
+
+.home-header{
+  text-align: center;
+  margin-top: 4vh;
+  margin-bottom: 0;
+}
+
+.cards{
+  margin: 1vw 2vh;
+  /* display: flex; */
+  padding: 10px;
+  /* justify-content: space-between; */
+}
+
+.cards img{
+  height: 10vh;
+}
+
+.Item-card {
+  height: 30vh;
+  width: 20vw;
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.Item-card:hover{
+  border: 3px solid rgb(13, 196, 0);
+  padding: 17px;
+}
+
+.add-button{
+  background-color: rgb(13, 196, 0);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 125px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Cart-box {
+  border: 1px solid black;
+  text-align: center;
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 4vh;
+}
+
+.checkout-button {
+  background-color: rgb(13, 196, 0);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 9px;
+}
