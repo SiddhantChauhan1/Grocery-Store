@@ -1,6 +1,6 @@
 Full-stack eCommerce website
 
-Built using HTML CSS JavaScript
+Built using HTML, Tailwid CSS, JavaScript
 MERN Stack
 
 View and search for various grocery items
