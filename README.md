@@ -23,5 +23,7 @@
         </UL> 
       </LI>
     </UL>
+    <H2> Screenshots </H2>
+    <IMG SRC="./screenshots/Screenshot1.png"/>
   </BODY>
 </HTML>
