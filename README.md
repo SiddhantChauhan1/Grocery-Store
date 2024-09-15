@@ -24,6 +24,6 @@
       </LI>
     </UL>
     <H2> Screenshots </H2>
-    <IMG SRC="./screenshots/Screenshot1.png"/>
+    <IMG SRC="./Screenshots/Screenshot%201.png">
   </BODY>
 </HTML>
